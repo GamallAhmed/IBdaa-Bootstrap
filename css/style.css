@@ -1,0 +1,156 @@
+.logo {
+  font-size: 35px;
+  font-family: "Merriweather", serif;
+}
+.links {
+  border: 2px solid #0b5ed7;
+  border-radius: 15px;
+  margin: 0 5px;
+}
+header {
+  height: 100vh;
+  background-image: url(../images/bg-teck3.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13, 110, 253, 0.6);
+  z-index: 1;
+}
+
+header * {
+  position: relative;
+  z-index: 2;
+}
+.header-content {
+  color: white;
+  font-family: "Merriweather", serif;
+}
+.header-content p {
+  font-size: 25px;
+}
+/* Main section */
+
+.section-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+
+.stars {
+  color: gold;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+.card {
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  border-radius: 10px;
+}
+
+.card-content {
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card .title-value {
+  color: #007bff;
+  font-weight: 700;
+}
+
+.card p {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.card h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.card h4 span {
+  text-decoration: line-through;
+  font-size: 0.9rem;
+  color: #888;
+  margin-left: 5px;
+}
+
+.card .btn {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.sec-section {
+    background: linear-gradient(to right, #f0f4ff, #dfe9f3);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e0e0;
+  }
+  
+  .start-title {
+    color: #0d6efd; 
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Luxurious Roman", serif;
+    margin-bottom: 20px;
+  }
+  
+  .start-pragraph {
+    color: #343a40;
+    font-family: "Luxurious Roman", serif;
+    font-size: 28px;
+    line-height: 1.5;
+  }
+  
+  .sec-section img {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sec-section img:hover {
+    transform: scale(1.03);
+  }
+
+  footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  footer ul {
+    padding-left: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
